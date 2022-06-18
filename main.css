@@ -7,6 +7,14 @@ body{
     top: 2.1px;
 }
 
+#agus-derose:hover, .bi-code:hover  {
+        color: #c752a09b;
+}
+
+.nav-link:hover {
+    color: #c752a09b;
+}
+
 #header {
     background-color: black;
 }
@@ -18,6 +26,15 @@ body{
 .btn-platzi {
     background-color: #c752a0;
     color: whitesmoke;
+}
+
+.social-icon {
+    width: 10px;
+}
+
+.btn-more:hover {
+    background-color: #c752a0;
+    color: white;
 }
 
 .code-icon {
@@ -67,6 +84,11 @@ body{
     border-radius: 0;
 }
 
+/* .card-body {
+    min-height: 318px ;
+    background-color: red;
+} */
+
 .badge h6 {
     display: inline-block;
 }
@@ -105,4 +127,8 @@ body{
 #footer a {
     color: whitesmoke;
     text-decoration: none;
+}
+
+.fab:hover {
+    color: #c752a0;
 }
