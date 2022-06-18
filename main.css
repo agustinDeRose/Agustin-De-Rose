@@ -1,20 +1,31 @@
-#conf-hawaii {
+body{
+    background: black
+}
+
+#agus-derose {
     position: relative;
     top: 2.1px;
 }
 
+#header {
+    background-color: black;
+}
 
 .text-platzi {
-    color: #97c93e !important;
+    color: #c752a0 !important;
 }
 
 .btn-platzi {
-    background-color: #97c93e;
-    color: white;
+    background-color: #c752a0;
+    color: whitesmoke;
+}
+
+.code-icon {
+    color: whitesmoke;
 }
 
 .btn-platzi:hover {
-    background-color: #82ad36;
+    background-color: #853a6c;
 }
 
 #header img {
@@ -37,8 +48,8 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(0,0,0,0.5);
-    color: white;
+    background-color: rgba(0,0,0,0.7);
+    color: whitesmoke;
     z-index: 1;
 }
 
@@ -46,28 +57,52 @@
     height: 100%;
 }
 
+#conocimientos, #conviertete-en-orador {
+    color: whitesmoke;
+}
+
+.card, .card img {
+    background-color: black;
+    border: .5px solid whitesmoke;
+    border-radius: 0;
+}
+
 .badge h6 {
     display: inline-block;
 }
 
+.personal-goal {
+    border: .5px solid whitesmoke;
+}
+
 #place-time {
-    background-color: #343a40;
-    color: white;
+    background-color: black;
+    color: whitesmoke;
 }
 
 #place-time img {
     max-width: 100%;
 }
 
+.goal {
+    margin: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
 .form-control {
     resize: none;
 }
 
+.form-text {
+    color: whitesmoke;
+}
+
 #footer {
-    background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372);
+    background-color: black;
 }
 
 #footer a {
-    color: white;
+    color: whitesmoke;
     text-decoration: none;
 }
