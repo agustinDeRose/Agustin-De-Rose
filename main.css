@@ -77,10 +77,6 @@ body{
 
 /* Carousell Certificados */
 
-/* .carousel-control-next, .carousel-control-prev {
-    width: 50px;
-} */
-
 
 
 /* !Carousell Certificados */
@@ -139,8 +135,11 @@ body{
     color: #c752a0;
 }
 
-/* @media screen and (min-widht:400px) {
-    .carousel-item {
-        height: 600px;
+
+
+@media screen and (max-width:400px) {
+    .coder-carousel {
+      height: 30vh !important;
     }
-} */
+
+  }
