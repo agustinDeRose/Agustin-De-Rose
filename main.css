@@ -49,10 +49,6 @@ body{
     width: 80px;
 }
 
-h1 span {
-    color: #c752a0;
-}
-
 #main .carousel-inner img {
     min-height: 50vh;
     max-height: 70vh;
@@ -75,13 +71,19 @@ h1 span {
     z-index: 1;
 }
 
-.carousel-item {
-
-}
-
 #carousel .overlay .container, #carousel .overlay .row {
     height: 100%;
 }
+
+/* Carousell Certificados */
+
+/* .carousel-control-next, .carousel-control-prev {
+    width: 50px;
+} */
+
+
+
+/* !Carousell Certificados */
 
 #conocimientos, #leave-message, #coderhouse {
     color: whitesmoke;
@@ -92,11 +94,6 @@ h1 span {
     border: .5px solid whitesmoke;
     border-radius: 0;
 }
-
-/* .card-body {
-    min-height: 318px ;
-    background-color: red;
-} */
 
 .badge h6 {
     display: inline-block;
@@ -141,3 +138,9 @@ h1 span {
 .fab:hover {
     color: #c752a0;
 }
+
+/* @media screen and (min-widht:400px) {
+    .carousel-item {
+        height: 600px;
+    }
+} */
