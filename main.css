@@ -99,12 +99,12 @@ body{
     border: .5px solid whitesmoke;
 }
 
-#place-time {
+#personal-goal {
     background-color: black;
     color: whitesmoke;
 }
 
-#place-time img {
+#personal-goal img {
     max-width: 100%;
 }
 
