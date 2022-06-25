@@ -3,17 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Agustin De Rose - Landing Page</title>
+    <title>Agustin De Rose</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
   </head>
-
-  <style>
-
-
-  </style>
 
   <body data-bs-spy="scroll" data-bs-target="#navbar">
 
@@ -59,7 +54,7 @@
 
     <main id="main">
         <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-pause="false">
-            <div class="carousel-inner">
+            <div class="carousel-inner ">
                 <div class="carousel-item active">
                     <img src="assets/images/wallpaper-python.jpeg" class="d-block w-100" alt="wallpaper - wallpaper-python">
                 </div>
@@ -92,11 +87,16 @@
     <!--knowledge -->
 
     <section id="conocimientos" class="mt-4">
+      <!-- PLATZI -->
       <div class="container">
         <div class="row">
-          <div class="col text-center text-uppercase mb-4">
-            <small>My</small>
-            <h2>platzi certifications</h2>
+          <div class="col text-center text-uppercase mb-2">
+             <small>My certifications at</small>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-8 col-lg-3 mx-auto mb-4">
+             <img src="./assets/images/platzi-logo.png" class="mx-auto d-block img-fluid" alt="Platzi Logo">
           </div>
         </div>
         <div class="row">
@@ -205,21 +205,72 @@
           </div>
         </div>
       </div>
+      <!-- DEEPNOTE -->
+      <div class="container">
+        <div class="row">
+          <div class="col text-center text-uppercase  mb-2">
+              <small>EDA PROJECT IN</small>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-8 col-lg-3 mx-auto mb-4">
+            <img src="./assets/images/deepnote_landing_logo.svg" alt="Deepnote Logo">
+          </div>
+        </div>
+      </div>
+
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="" aria-current="true"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4" class=""></button>
+        </div>
+        <div class="carousel-inner mb-4">
+  
+          <div class="carousel-item coder-carousel active" style="height: 60vh; background-color: aliceblue; color: white; position: relative;">
+          <div class="overlay-image" style="position: absolute; bottom: 0; left: 0; right: 0; top: 0; background-position: center;    background-size: contain; background-repeat: no-repeat; background-color: black; background-image: url(./assets/images/deepnote-img1.png); "></div>
+          </div>
+  
+          <div class="carousel-item coder-carousel carousel-item-next carousel-item-start" style="height: 60vh; background-color: aliceblue; color: white; position: relative;">
+            <div class="overlay-image" style="position: absolute; bottom: 0; left: 0; right: 0; top: 0; background-position: center; background-size: contain; background-repeat: no-repeat; background-color: black; background-image: url(./assets/images/deepnote-img2.png); "></div>
+          </div>
+  
+          <div class="carousel-item coder-carousel coder-carousel"  style="height: 32rem; background-color: aliceblue; color: white; position: relative;">
+            <div class="overlay-image" style="position: absolute; bottom: 0; left: 0; right: 0; top: 0; background-position: center; background-size: contain; background-repeat: no-repeat; background-color: black; background-image: url(./assets/images/deepnote-img3.png);"></div>
+          </div>
+  
+          <div class="carousel-item coder-carousel coder-carousel"  style="height: 32rem; background-color: aliceblue; color: white; position: relative;">
+            <div class="overlay-image" style="position: absolute; bottom: 0; left: 0; right: 0; top: 0; background-position: center; background-size: contain; background-repeat: no-repeat; background-color: black; background-image: url(./assets/images/deepnote-img4.png);"></div>
+          </div>
+  
+        </div>
+  
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
     </section>
 
-    <!--/knowledge -->
 
-    <!--Carousell -->
+    <!--Carousell CODER-->
 
     <section id="coderhouse">
-      <div class="container mb-4">
+      <div class="container">
         <div class="row">
-          <div class="col text-center text-uppercase">
+          <div class="col text-center text-uppercase mb-2">
             <small>Data analytics project at</small>
           </div>
         </div>
         <div class="row">
-          <div class="col-8 col-lg-3 mx-auto ">
+          <div class="col-8 col-lg-3 mx-auto mb-4">
             <img src="./assets/images/CODER-LOGO.png" class="mx-auto d-block img-fluid" alt="Coderhouse Logo">
           </div>
         </div>
@@ -267,7 +318,9 @@
       </button>
     </div>
 
-    <!--/Carousell -->
+    <!--/Carousell CODER-->
+
+     <!--/knowledge -->
 
     <!--Lugar y fecha -->
 
@@ -343,13 +396,7 @@
 
     <footer id="footer" class="pb-4 pt-4">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-3" style="width: 50px;">
-                    <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
-                </div>
-                <div class="col-3" style="width: 50px;">
-                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-                </div>
+            <div class="row justify-content-center text-center">
                 <div class="col-3" style="width: 50px;">
                     <a href="https://www.linkedin.com/in/agustinderose/"><i class="fab fa-linkedin-in"></i></a>
                 </div>
