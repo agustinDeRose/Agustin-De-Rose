@@ -131,6 +131,10 @@ body{
     text-decoration: none;
 }
 
+.fab{
+    font-size: 50px;
+}
+
 .fab:hover {
     color: #c752a0;
 }
